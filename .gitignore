@@ -79,10 +79,8 @@ target/
 /data/external/*
 !/data/external/.gitkeep
 
-/data/interim/*
-!/data/interim/.gitkeep
 
-/data/processed/*
+!/data/interim/.gitkeep
 !/data/processed/.gitkeep
 
 /data/raw/*
