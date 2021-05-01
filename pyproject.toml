@@ -2,7 +2,7 @@
 name = "fake-news-ptbr"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = [""]
 
 [tool.poetry.dependencies]
 python = "^3.8"
