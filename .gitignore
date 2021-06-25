@@ -2,6 +2,12 @@
 __pycache__/
 *.py[cod]
 
+# R Language
+/packrat/*
+!packrat/init.R
+!packrat/packrat.lock
+!packrat/packrat.opts
+
 # C extensions
 *.so
 
@@ -95,3 +101,4 @@ target/
 
 # Mypy cache
 .mypy_cache/
+packrat/lib*/
