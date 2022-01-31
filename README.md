@@ -11,12 +11,12 @@ This section explains how to use/reproduce this project. Note that this tutorial
 This projects used Python 3.8.5. For management of multiple python versions we recommend the installation of [Pyenv](https://github.com/pyenv/pyenv). For installation of the tool visit [Pyenv Installation](https://github.com/pyenv/pyenv#installation). After the installation you are ready to install the python version by using the command:
 
 ```shell
-pyenv install 3.8.5
+pyenv install 3.8.7
 ```
 To make this version the default for this project you can use the command below (make sure you are on this folder): 
 
 ```shell
-pyenv local 3.8.5
+pyenv local 3.8.7
 ```
 
 #### Without PyEnv
