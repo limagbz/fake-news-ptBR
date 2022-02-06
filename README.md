@@ -11,12 +11,12 @@ This section explains how to use/reproduce this project. Note that this tutorial
 This projects used Python 3.8.5. For management of multiple python versions we recommend the installation of [Pyenv](https://github.com/pyenv/pyenv). For installation of the tool visit [Pyenv Installation](https://github.com/pyenv/pyenv#installation). After the installation you are ready to install the python version by using the command:
 
 ```shell
-pyenv install 3.8.5
+pyenv install 3.8.7
 ```
 To make this version the default for this project you can use the command below (make sure you are on this folder): 
 
 ```shell
-pyenv local 3.8.5
+pyenv local 3.8.7
 ```
 
 #### Without PyEnv
@@ -56,6 +56,18 @@ all Jupyter. On R console, execute:
 ```R
 IRkernel::installspec(user = FALSE)
 ```
+
+### 5. Install NPM and NodeJS to use jupyter Widgets
+You also need to install NPM and NodeJS to be able to use IPywidgets in this
+project. You can do this by running:
+
+```shell
+apt install npm nodejs
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+```
+**NOTE:** You can see more information about how to setup on
+[Ipywidgets: Installation](https://ipywidgets.readthedocs.io/en/latest/user_install.html). 
+
 
 ## Data
 All the data used on this project and their transformations can be found in the data folder of this repository. The raw data was acquired on the [Fake.br-Corpus](https://github.com/roneysco/Fake.br-Corpus) repository on this [commit](https://github.com/roneysco/Fake.br-Corpus/tree/780f5516c4ae070761632d98ac3368f3ded09d35).
