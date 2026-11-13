@@ -1,6 +1,8 @@
 # Understanding Fake News in Portuguese
 
-This repository contains all the data and code used to understand and model the [Fake.br-Corpus](https://github.com/roneysco/Fake.br-Corpus).
+This repository contains all the data and code used to understand and model the [Fake.br-Corpus](https://github.com/roneysco/Fake.br-Corpus). This repository is the code used to write the research article:
+
+> Lima, G. B., Chaves, T. d. M., Freitas, W. W. L., & de Souza, R. M. C. R. (2023). Statistical learning from Brazilian fake news. Expert Systems, 40(3), e13171. https://doi.org/10.1111/exsy.13171
 
 ## Preparing the Environment
 This section explains how to use/reproduce this project. Note that this tutorial is made to work on a linux machine.
